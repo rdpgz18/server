@@ -8,3 +8,6 @@ cd ~/termux-php-apache2-setup &&
 bash setup && 
 cd ~/ && 
 rm -rf termux-php-apache2-setup
+
+apachectl
+mysqld_safe -u root &
